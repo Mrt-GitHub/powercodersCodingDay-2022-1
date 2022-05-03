@@ -1,0 +1,67 @@
+main{
+  display: flex;
+}
+
+ul{
+    margin: 0;
+}
+ul li {
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  display: flex;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid gray;
+}
+header img {
+  width: 70px;
+}
+header h1 {
+  font-style: italic;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    left: 0;
+    margin-left: -40px;
+    flex:4;
+}
+
+nav ul li{
+    border: 1px solid gray;
+    padding: 20px;
+}
+nav ul li a {
+  font-size: 30px;
+}
+
+
+article{
+  flex: 10;
+}
+article ul li {
+  display: grid;
+  height: 40vh;
+  margin: 10px;
+  border: solid 1px grey;
+}
+article ul li a{
+  color:green;
+  font-weight: bold;
+}
+aside{
+  flex: 2;
+}
+aside h1 {
+  border: green solid 2px;
+  height: 100px;
+}
